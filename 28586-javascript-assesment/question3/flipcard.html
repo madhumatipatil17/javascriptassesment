@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="./flipcard.css">
+  <title>Guess The Number</title>
+</head>
+
+<body>
+
+  <!-- <h2>magical numbers😍</h2> -->
+
+</html>
+
+<div class="">
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <div>
+          <h3>im thinking of number 1-100😍</h3>
+          <h3>No of Attempt..</h3>
+          <p class="count">10</p>
+          <p id="message">Please guess the correct number😆</p>
+        </div>
+        <div class="inp_field">
+          <input type="text" name="" id="inp">
+          <button onclick="guess()" class="btn btn-success">Guess</button>
+        </div>
+      </div>
+      <div class="flip-card-back">
+        <h1 class="text"></h1>
+        <a class="btn btn-success" href="./flipcard.html">Retry</a>
+        <div class="flip-card-back">
+          <p id="message1">No.of Guesses: 0</p>
+          <p id="message2">Guessed number are: None</p>
+          <p id="message3"></p>
+      </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+<script src="./flipcard.js"></script>
+
+</body>
